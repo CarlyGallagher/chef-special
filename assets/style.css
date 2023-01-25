@@ -1,0 +1,10 @@
+:root {
+    --white: white;
+    --text-black: black;
+    --nav-orange: rgba(255, 118, 76, 0.795);
+}
+
+header img.profile-photo {
+    width: 30px;
+    height: auto;
+}
