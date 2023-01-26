@@ -4,7 +4,30 @@
     --nav-orange: rgba(255, 118, 76, 0.795);
 }
 
-header img.profile-photo {
-    width: 30px;
-    height: auto;
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font: 1rem;
+}
+
+h1 {
+    color: var(--white);
+}
+
+nav {
+display: flex;
+justify-content: row;
+}
+
+nav a{
+    color: white;
+}
+
+.top-container{
+    background-color: rgb(222, 222, 81);
+    background-image: url("../assets/images/headerbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    background-blend-mode: multiply;
 }
