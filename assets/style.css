@@ -4,30 +4,76 @@
     --nav-orange: rgba(255, 118, 76, 0.795);
 }
 
-body{
+* {
     margin: 0;
+}
+
+body {
     font-family: sans-serif;
-    font: 1rem;
+    background-color: rgb(245 240 223);
 }
 
-h1 {
-    color: var(--white);
-}
-
-nav {
-display: flex;
-justify-content: row;
-}
-
-nav a{
-    color: white;
-}
-
-.top-container{
+.top-container {
     background-color: rgb(222, 222, 81);
     background-image: url("../assets/images/headerbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: start;
     background-blend-mode: multiply;
+    width: 100%;
+    height: auto;
 }
+
+h1 {
+    color: var(--white);
+    padding: 5%;
+}
+
+nav ul {
+    background-color: var(--nav-orange);
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    color: var(--white);
+}
+
+ul {
+    list-style-type: none;
+    padding: 1% 0;
+}
+
+li {
+    padding: 0 6px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+
+
+.contact img {
+    border: solid var(--nav-orange) 3px;
+    border-radius:  100% 100% 0 0;
+    width: 18%;
+}
+
+@media screen and (max-width: 768px) {
+  
+    section {
+      padding-right: 0;
+    }
+  
+  }
