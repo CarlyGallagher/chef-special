@@ -19,7 +19,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: start;
-    background-blend-mode: multiply;
     width: 100%;
     height: auto;
 }
@@ -27,6 +26,8 @@ body {
 h1 {
     color: var(--white);
     padding: 5%;
+    text-shadow: 3px 3px 0 var(--nav-orange);
+    text-decoration-line: underline;
 }
 
 nav ul {
@@ -50,7 +51,6 @@ li {
 
 main {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     padding-left: 1%;
     padding-top: 1%;
