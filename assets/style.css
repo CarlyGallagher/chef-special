@@ -64,10 +64,17 @@ main {
 }
 
 
-.contact img {
+.contact-photo img {
     border: solid var(--nav-orange) 3px;
     border-radius:  100% 100% 0 0;
     width: 18%;
+}
+
+.contact-info {
+    border: solid var(--nav-orange) 3px;
+    border-radius:  100% 100% 0 0;
+    width: 18%;
+    background-color: var(--nav-orange);
 }
 
 .education {
