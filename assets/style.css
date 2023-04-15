@@ -56,12 +56,6 @@ main {
     padding-top: 1%;
 }
 
-.about-me {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 1%;
-}
 
 
 .contact-photo img {
@@ -92,7 +86,12 @@ main {
     background-color: var(--nav-orange);
     text-align: center;
     color: var(--white);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1%;
 }
+
 
 footer {
     Padding: 1%;
