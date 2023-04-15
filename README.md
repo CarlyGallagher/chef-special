@@ -6,10 +6,14 @@ So That I can have a space to showcase my work from my bootcamp classes
 
 ## Tasks
 ​
-- 
-- 
-- 
-- 
+- Given a portfolio page I can,
+- Present my name, contact information, and an updated photo of myself.
+- When I click on the nav bar 
+- then it will lead me to that section.
+- When clicking on a projects photo 
+- then it will take me to that deployed application
+- When I pull up the profile on othger viewports
+- it will then adapt to that screen size
 
 ​
 ## Usage
