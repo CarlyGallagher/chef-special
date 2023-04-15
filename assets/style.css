@@ -70,6 +70,10 @@ main {
     width: 18%;
 }
 
+.education {
+    background-image: url();
+}
+
 @media screen and (max-width: 768px) {
   
     section {
