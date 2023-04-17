@@ -91,7 +91,11 @@ main {
     flex-wrap: wrap;
     padding-top: 1%;
 }
-
+/* .projects div {
+    border: solid var(--nav-orange) 3px;
+    border-radius:  100% 100% 0 0;
+    width: 18%;
+} */
 
 footer {
     Padding: 1%;
