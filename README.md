@@ -18,16 +18,17 @@ So That I can have a space to showcase my work from my bootcamp classes
 ​
 ## Usage
 
-​![Alt text]
+​![profile nav and photo](./assets/images/screenshot.png)
 
 ## Links
-- Deployed Webpage: N/A
-- GitHub Repo Page: 
+- Deployed Webpage: https://carlygallagher.github.io/chef-special/
+- GitHub Repo Page: https://github.com/CarlyGallagher/chef-special.git
 ​
 ## Credits
 ​
-- 
-- 
+- https://chat.openai.com/
+- https://flexboxfroggy.com/
+- https://www.w3schools.com/cssref/css3_pr_word-wrap.php
 ​
 ## License
 ​
