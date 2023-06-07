@@ -69,30 +69,81 @@ main {
     border-radius: 100% 100% 0 0;
     width: 18%;
     height: 15rem;
-    white-space: nowrap;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     background-color: var(--nav-orange);
     text-align: center;
     color: var(--white);
 }
 
+.contact {
+    color: var(--white);
+    width: 100%;
+    text-align: center;
+
+}
+
+.contact1 {
+    word-wrap: initial;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+}
+/* about me area */
+
 .about-me {
     border: solid var(--nav-orange) 3px;
     border-radius: 100% 100% 0 0;
-    width: 18%;
-    height: 15rem;
-    white-space: nowrap;
-    overflow: hidden;
+    width: 45%;
+    height: 25rem;
+    margin-right: 20%;
     background-color: var(--nav-orange);
-    text-align: center;
-    color: var(--white);
     float: right;
-    padding-top: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
-img {
+
+/* about h3 */
+.about {
+    color: var(--white);
     width: 100%;
+    text-align: center;
+
+}
+
+/* about p tag */
+.about1 {
+    word-wrap: initial;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+}
+
+/* PROJECTS AREA */
+
+h2{
+    text-align: center;
+    padding: 1%;
+    color: var(--nav-orange);
+    text-shadow: 3px 3px 0 var(--white);
+    text-decoration-line: underline;
+    font-size: 300%;
+}
+
+img {
+    width: 50%;
     height: auto;
 }
+
+.projects {
+
+}
+
 .image-container {
     display: flex;
     flex-direction: row;
@@ -112,12 +163,6 @@ img {
     text-align: center;
 }
 
-
-/* .projects div {
-    border: solid var(--nav-orange) 3px;
-    border-radius:  100% 100% 0 0;
-    width: 18%;
-}  */
 
 footer {
     Padding: 1%;
