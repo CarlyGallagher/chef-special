@@ -86,9 +86,7 @@ main {
     background-color: var(--nav-orange);
     text-align: center;
     color: var(--white);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    float: right;
     padding-top: 1%;
 }
 img {
